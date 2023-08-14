@@ -1,0 +1,52 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 15%;
+}
+.about-left{
+    flex-basis: 45%;
+    position: sticky;
+    top: 10%;
+    align-self: flex-start;
+}
+.about-right{
+    flex-basis: 55%;
+    position: sticky;
+    top: 10%;
+    align-self: flex-start;
+    background: transparent;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+.about-left img {
+    width: 80%;
+    height: 45vh;
+    border-radius: 1%;
+    border: 2px solid #00abf0; 
+}
+
+.about-right h3 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.about-right h1 {
+    position: relative;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.about-right p{
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.about-right .btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
